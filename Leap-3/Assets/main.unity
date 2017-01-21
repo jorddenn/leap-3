@@ -314,6 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82aef55cbc83c944fb4d3127cecd1a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeColor: {fileID: 2100000, guid: 84f1bd657cab1424c9c752a233c479c6, type: 2}
+  backgroundColor: {fileID: 2100000, guid: 842d5131a161ed14ba90787a6a7b34ec, type: 2}
 --- !u!4 &619130915
 Transform:
   m_ObjectHideFlags: 0

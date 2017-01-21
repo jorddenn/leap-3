@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ColorController : MonoBehaviour {
 
+    public Material cubeColor;
+    public Material backgroundColor;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +14,7 @@ public class ColorController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+		cubeColor.color = Color.Lerp(Color.green, Color.blue, Mathf.PingPong(Time.time, 1));
+        backgroundColor.color = Color.Lerp(Color.red, Color.magenta, Mathf.PingPong(Time.time, 1));
+    }
 }
